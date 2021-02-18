@@ -10,7 +10,6 @@
 #header {
   min-height: 150px;
   background-color: green;
-  background-image: url(./images/unknown.png);
 }
 #navigation {
   min-height: 300px;

@@ -17,7 +17,7 @@ div#header {
 
 div#navigation {
   background-color: blue;
-  min-height: 600px;
+  min-height: 500px;
   width: 400px;
   vertical-align: top;
   display: inline-block;

@@ -1,34 +1,75 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0, 0, 0, 0;
 }
-#wrapper {
-  width: 950px;
+body {
   background-color: silver;
-  margin: 0px auto;
+  background: cover;
+  size: auto;
 }
-#header {
-  min-height: 150px;
+div#header {
   background-color: green;
-  background-image: url(./images/unknown.png);
-}
-#navigation {
-  min-height: 300px;
-  width: 200px;
-  background-color: blue;
-}
-#main_content {
-  min-height: 400px;
-  width: 700px;
-  background-color: red;
-}
-.subcontents {
+  width: 1837px;
   min-height: 200px;
-  width: 210px;
-  background-color: yellow;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
-#advertisement {
-  min-height: 120px;
-  width: 660px;
+
+div#navigation {
+  background-color: blue;
+  min-height: 600px;
+  width: 400px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+div#main_content {
+  min-height: 700px;
+  width: 1405px;
+  background-color: red;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+  display: inline-block;
+}
+
+.subcontents1 {
+  background-color: yellow;
+  height: 340px;
+  min-width: 420px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-right: 12.5px;
+}
+.subcontents2 {
+  background-color: yellow;
+  height: 340px;
+  min-width: 420px;
+  display: inline-block;
+  margin-left: 12.5px;
+  margin-top: 30px;
+  margin-right: 12.5px;
+}
+.subcontents3 {
+  background-color: yellow;
+  height: 340px;
+  min-width: 420px;
+  display: inline-block;
+  margin-left: 12.5px;
+  margin-top: 50px;
+  margin-right: 30px;
+}
+div#advertisement {
+  height: 175px;
+  width: 1320px;
   background-color: purple;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 50;
+  margin-bottom: 25px;
 }

@@ -44,7 +44,8 @@
 // keywords = [tp], [fp];
 
 //var source = InputEvent.document.querySelector("input")
-const { getQueriesForElement, getAllByDisplayValue, getByTitle, } = require("@testing-library/react");
+const { getAllByDisplayValue } = require("@testing-library/react");
+includes = array, array2, array3;
 function includes(array, array2, array3 = + text) {
     text = ""
     var text = (document.querySelector)("#text").id
@@ -54,7 +55,7 @@ function includes(array, array2, array3 = + text) {
     array = []
     array2 = []
     array3 = []
-    includes = array, array2, array3;
+
 }
 onclick(document.querySelector)("#input").id; {
     TextEvent = (document.querySelector("#text").contains)

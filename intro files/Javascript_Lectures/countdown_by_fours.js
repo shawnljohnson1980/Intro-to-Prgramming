@@ -14,9 +14,11 @@ var mult = (2, 9, 3);
 while (highNum > lowNum) {
     highNum -= mult;
 
-    console.log()
+    console.log(highNum -= mult)
 }
-
+// i-2020
+// param1=3
+// param2=6
 
 
 

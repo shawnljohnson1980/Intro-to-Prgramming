@@ -10,11 +10,11 @@
 //Add all the numbers together and divide by the number of values.
 //var myArray = [1, 2, 3];
 //console.log(myArray.length);
-function printAverageOfArray(arrInput) {
-  var sum = 0;
-  for (var i = 0; i < arrInput.length; i++) {
-    sum += arrInput[i];
-  }
-  console.log(sum / arrInput.length);
-}
-printAverageOfArray([1, 2, 3, 4]);
+// function printAverageOfArray(arrInput) {
+//   var sum = 0;
+//   for (var i = 0; i < arrInput.length; i++) {
+//     sum += arrInput[i];
+//   }
+//   console.log(sum / arrInput.length);
+// }
+// printAverageOfArray([1, 2, 3, 4]);

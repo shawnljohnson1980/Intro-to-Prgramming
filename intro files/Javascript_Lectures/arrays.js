@@ -30,19 +30,29 @@
 //create a variable called max to keep track of the maximum value, and set it to the first variable in the array.
 // Gonna need and if statement to compare each value against.
 // if a value is larger, make that new max// after the loop, print max value.
-function printMaxOfArray() {
-  var max = 4
-  arr = [4, 7, 1, 9, 3, 6, 1, 0];
-  for (i = 4; i > arr.length; i++) {
-    if ([i] > max) {
-      console.log([i]);
+// function printMaxOfArray() {
+//   var max = 4
+//   arr = [4, 7, 1, 9, 3, 6, 1, 0];
+//   for (i = 4; i > arr.length; i++) {
+//     if ([i] > max) {
+//       console.log([i]);
 
-    }
-  }
-}
-printMaxOfArray();
+//     }
+//   }
+// }
+// printMaxOfArray();
 //myInfo[3]="green"
 // myinfo.push("Rock Park");
 //concole.log (myInfo)
 //my info.pop()
 //console.log
+function pushArrayValToTheLeft() {
+  var arr = [0, 0, 16, 3, 87, 44, 15, 9, 6, 0]
+  for (var i = 0; i < arr.length - 1; i++) {
+    arr[i] = arr[i + 1];
+    arr[arr.length - 1] = 0;
+    console.log(arr[i]);
+  }
+}
+
+pushArrayValToTheLeft();

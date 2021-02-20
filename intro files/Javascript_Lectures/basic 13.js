@@ -109,14 +109,14 @@
 // 
 
 //12 Greater than the second 
-// function shiftArrayValsLeft() {
-//     arr = [1, 34, 18, 83, 9, 4, 0, 3]
-//     for (var i = 0; i < arr.length - 1; i++) {
-//         arr[i] = arr[i + 1];
+function shiftArrayValsLeft() {
+    arr = [1, 34, 18, 83, 9, 4, 0, 3]
+    for (var i = 0; i < arr.length - 1; i++) {
+        arr[i] = arr[i + 1];
 
-//         arr[arr.length - 1] = 0;
-//         console.log(arr[i])
-//     }
-// }
-// shiftArrayValsLeft()
+        arr[arr.length - 1] = 0;
+        console.log(arr[i])
+    }
+}
+shiftArrayValsLeft()
 

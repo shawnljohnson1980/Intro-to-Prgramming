@@ -8,13 +8,14 @@
 // Go through the numbers by creating a for loop that starts at 0 and ends at the array.length. and increment by 1
 //in the loop add each value to sum.
 //Add all the numbers together and divide by the number of values.
-//var myArray = [1, 2, 3];
-//console.log(myArray.length);
-// function printAverageOfArray(arrInput) {
-//   var sum = 0;
-//   for (var i = 0; i < arrInput.length; i++) {
-//     sum += arrInput[i];
-//   }
-//   console.log(sum / arrInput.length);
-// }
-// printAverageOfArray([1, 2, 3, 4]);
+function printAverageOfArray() {
+    arr = [1, 2, 3, 4]
+    var sum = 1;
+    for (var i = 0; i < arr.length; i++) {
+        if (arr < arr.length) {
+            sum = arr[i] + arr.length
+            console.log(sum / arr.length);
+        }
+    }
+}
+printAverageOfArray();

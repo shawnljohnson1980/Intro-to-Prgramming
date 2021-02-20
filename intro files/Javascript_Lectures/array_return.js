@@ -1,4 +1,4 @@
-//values greater than second 
+//values greater than second
 
 //write a function that accepts any array, and returns a new array with than it's 2nd value Print how many values this is. 
 //values that are greater than it's 2nd values. Print how man vales this is. what will you do 
@@ -31,8 +31,8 @@
 //     }
 //     console.log(sum / arr.length);
 // }
-// printAverageOfArray([]);
-//make negative numbers "0" within and array 
+// printAverageOfArray();
+//make negative numbers "0" within and array
 // function zeroOutNegativeNumbers(arr) {
 //     for (i = 0; i < arr.length; i++) {
 
@@ -44,12 +44,12 @@
 // }
 // console.log(zeroOutNegativeNumbers([5, 9, -3, 2, 11, -12]))
 
-i = 2020
+// i = 2020
 
-while (i < 2020 - 4 > 0) {
-
-
+// while (i < 2020 - 4 > 0) {
 
 
 
-}
+
+
+// }

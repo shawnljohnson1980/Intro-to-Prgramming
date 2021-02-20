@@ -19,13 +19,13 @@
 // A double equal converts both sides of the operator to the same datatype. 
 // A triple equal checks both datatype and value. 
 // modulo %
-if (4 % 2 === 0) {
-    console.log("Is a multiple")
-    if (i % 2 === 0)
-        console.log(i)
-}
-// Tkae the first number and subtract the second number from it as many times as possible. Until you can't do so anymore. What's left over is the result of the modulo
-console.log(12 % 4 === 1)
-console.log(i)
+// if (4 % 2 === 0) {
+//     console.log("Is a multiple")
+//     if (i % 2 === 0)
+//         console.log(i)
+// }
+// // Tkae the first number and subtract the second number from it as many times as possible. Until you can't do so anymore. What's left over is the result of the modulo
+// console.log(12 % 4 === 1)
+// console.log(i)
 
 

@@ -23,15 +23,15 @@
 
 // console.log(newArr);
 
-// function printAverageOfArray(arr) {
-//     sum = 0
-//     arr = [1, 2, 3, 4]
-//     for (i = 0; i < arr.length; i++) {
-//         sum += arr[i];
-//     }
-//     console.log(sum / arr.length);
-// }
-// printAverageOfArray();
+function printAverageOfArray(arr) {
+    sum = 0
+    arr = [1, 2, 3, 4]
+    for (i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    console.log(sum / arr.length);
+}
+printAverageOfArray();
 //make negative numbers "0" within and array
 // function zeroOutNegativeNumbers(arr) {
 //     for (i = 0; i < arr.length; i++) {

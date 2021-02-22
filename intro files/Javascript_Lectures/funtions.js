@@ -1,11 +1,11 @@
-function printNumbers(i) {
+function printNumbers() {
     num = 15
     for (i = 0; i < num; i++) {
-        if (i < num) {
-
+        if (15 % 2 == 0) {
+            console.log(i)
         }
-        return i;
+        return num;
     }
-    printNumbers(i)
-}
 
+}
+printNumbers()

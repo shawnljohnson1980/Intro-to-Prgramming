@@ -13,7 +13,7 @@
 // 2 print odds from 0 to 255
 // function printOdds0to255() {
 //     for (var i = 2; i <= 255; i++) {
-//         if (i += 1) {
+//         if (i += 1 &&!2) {
 //             console.log(i);
 //         }
 //     }
@@ -21,10 +21,10 @@
 // printOdds0to255();
 
 // 3 Print and Sum 0 - 255
-// function printIntAndSum0to255() {
+//  printIntAndSum0to255() {
 //     sum = 0
 //     num = 255
-//     for (i = 1; i <= 255; i++) {
+//     for (i = 1; i <= 255; functioni++) {
 //         if (i <= 255) {
 //             sum = i + i
 //             console.log("Number is now", i, "Sum is now", sum)
@@ -71,13 +71,14 @@
 // }
 // printAverageOfArray();
 
-//7 array with odds
+// 7 array with odds
 // function printOddOfArray() {
-//     var arr = [1, 3, 5, 7, 9, 2, 8, 4, 6, 7, 3, 8]
+//     var arr = [1, 3, 5, 7, 9, 2, 8, 4, 6, 7, 3, 8];
 //     for (var i = 1; i < arr.length; i++) {
-//         if (arr.length >= arr[i]) {
-//             console.log("I'm an odd duck", arr[i]);
-//         }
+//         if (arr.length >= [i])
+//             if (arr[i] % 2 == 1) {
+//                 console.log("I'm an odd duck", arr[i]);
+//             }
 //     }
 // }
 // printOddOfArray();
@@ -109,14 +110,37 @@
 // 
 
 //12 Greater than the second 
-function shiftArrayValsLeft() {
-    arr = [1, 34, 18, 83, 9, 4, 0, 3]
-    for (var i = 0; i < arr.length - 1; i++) {
-        arr[i] = arr[i + 1];
+// function shiftArrayValsLeft() {
+//     arr = [1, 34, 18, 83, 9, 4, 0, 3]
+//     for (var i = 0; i < arr.length - 1; i++) {
+//         arr[i] = arr[i + 1];
+//         arr[arr.length - 1] = 0;
+//         console.log(arr[i])
 
-        arr[arr.length - 1] = 0;
-        console.log(arr[i])
+//     }
+// }
+// shiftArrayValsLeft()
+
+// get array 
+
+
+// function get_array() {
+//     var arr = [];
+//     for (var i = 1; i <= 255; i++) {
+//         arr.push(i);
+//     }
+//     return arr;
+// }
+function greaterThanY() {
+
+}
+var y = 3;
+arr = [1, 3, 5, 7, 9];
+count = 0;
+for (i = 0; i < arr.length; i++) {
+    if (arr[i] > y) {
+        count++;
+        console.log(count);
     }
 }
-shiftArrayValsLeft()
-
+greaterThanY();

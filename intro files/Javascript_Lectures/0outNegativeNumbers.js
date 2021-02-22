@@ -7,4 +7,4 @@ function ZeroOutArrayNegativeVal(arr) {
   return arr;
 }
 
-console.log(ZeroOutArrayNegativeVal([5, 9, -3, 2, 11, -12]));
+console.log(ZeroOutArrayNegativeVal([5, 9, -3, 2, 11, -12, 6, 22]));
